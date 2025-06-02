@@ -1,7 +1,6 @@
-points = 0
 class PointsForPlace():
     def __init__(self):
-        self.points = points
+        self.points = 0
         
     def get_points_for_place(self, place):
         self.place = place
@@ -17,7 +16,7 @@ class PointsForPlace():
 
 class PointsForMeters():
     def __init__(self):
-        self.points = points
+        self.points = 0
         
     def get_points_for_meters(self, meters):
         self.meters = int(meters)
